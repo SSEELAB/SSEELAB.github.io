@@ -330,3 +330,13 @@ html[data-lang="en"] .hero h1{letter-spacing:-.02em;line-height:1.14}
 .sec h2,.pubsecs h2{letter-spacing:-.01em}
 .cv-h{font-family:var(--serif);font-weight:600;font-size:1.25rem}
 @media (max-width:640px){.phead{padding-block:56px 40px}}
+/* v9: KNU emblem + lab-name hero */
+img.mark{width:40px;height:40px;fill:none;object-fit:contain}
+.foot img.mark{width:44px;height:44px}
+.hero{padding-block:96px 104px;border-bottom:1px solid var(--line)}
+.hero h1.lab-name{font-family:var(--serif);font-size:clamp(2.3rem,4.4vw,3.7rem);font-weight:600;line-height:1.14;letter-spacing:-.02em}
+html[data-lang="en"] .hero h1.lab-name{line-height:1.14;letter-spacing:-.02em}
+.lab-name-ko{margin-top:18px;font-size:clamp(1.2rem,1.8vw,1.5rem);font-weight:600;color:var(--ink-2);letter-spacing:-.02em;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.lab-name-ko span{font-size:.8rem;font-weight:600;letter-spacing:.14em;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:2px 10px}
+.hero-sub{margin-top:28px}
+@media (max-width:920px){.hero{padding-block:56px 64px}}
