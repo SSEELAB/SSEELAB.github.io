@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SSEE Lab · 경북대학교 강구조내진공학 연구실</title>
+<meta name="description" content="경북대학교 건축공학과 강구조내진공학 연구실 (SSEE Lab) — 강·합성구조, 모듈러 구조, 비구조요소 내진, AI 기반 구조 모델링">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+KR:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css?v=8">
+<script>try{var q=new URLSearchParams(location.search).get('lang'),l=q||localStorage.getItem('lang');if(l==='en'||l==='ko'){document.documentElement.dataset.lang=l;document.documentElement.lang=l}var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 4h22v4.5h-8.5v15H27V28H5v-4.5h8.5v-15H5z"/></svg><span class="brand-t"><b>SSEE Lab</b><small><span class="ko">경북대학교 강구조내진공학 연구실</span><span class="en">Kyungpook National University</span></small></span></a>
+    <nav aria-label="Main"><ul id="menu">
+        <li><a href="about.html">About</a></li>
+        <li class="has-sub"><a href="professor.html">People<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a><ul class="sub"><li><a href="professor.html">Professor</a></li><li><a href="students.html">Students</a></li></ul></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
+    <div class="tools">
+      <button id="langBtn" type="button" aria-label="Switch language">EN</button>
+      <button id="themeBtn" type="button" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></button>
+      <button id="menuBtn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Steel Structures &amp; Earthquake Engineering Lab</p>
+      <h1><span class="ko">지진 이후에도<br>제 기능을 하는 구조를<br>연구합니다</span><span class="en">Structures that<br>keep working<br>after the earthquake</span></h1>
+      <p class="hero-sub"><span class="ko">경북대학교 건축공학과 강구조내진공학 연구실은 실물대 실험, 비선형 해석, 인공지능을 결합해 강구조 시스템과 비구조요소의 내진 성능을 연구합니다.</span><span class="en">At Kyungpook National University we combine full-scale testing, nonlinear analysis and machine learning to improve the seismic performance of steel systems and nonstructural components.</span></p>
+      <div class="cta">
+        <a class="btn" href="about.html"><span class="ko">연구실 소개</span><span class="en">About the lab</span></a>
+        <a class="btn btn-ghost" href="publications.html"><span class="ko">연구성과</span><span class="en">Publications</span></a>
+      </div>
+    </div>
+    <figure class="plot">
+      <div class="plot-box"><canvas id="hyst" aria-label="Animated hysteresis loops of a steel connection under cyclic loading"></canvas></div>
+      <figcaption><span class="ko">강접합부 반복가력 이력곡선 (AISC 341 프로토콜, 예시)</span><span class="en">Cyclic response of a steel connection, AISC 341 protocol (illustrative)</span></figcaption>
+    </figure>
+  </div>
+  <div class="wrap">
+    <dl class="stats">
+      <div><dt><span class="ko">SCI(E) 국제학술지</span><span class="en">SCI(E) journal papers</span></dt><dd>11</dd></div>
+      <div><dt><span class="ko">국제학술대회 발표</span><span class="en">Int'l conference papers</span></dt><dd>16</dd></div>
+      <div><dt><span class="ko">연구과제 수행</span><span class="en">Research projects</span></dt><dd>19</dd></div>
+      <div><dt><span class="ko">등록 특허</span><span class="en">Registered patents</span></dt><dd>3</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-h"><h2>Research</h2><a class="more" href="about.html"><span class="ko">연구실 소개</span><span class="en">About</span> →</a></div>
+    <div class="acards">
+      <a class="acard" href="about.html#steel">
+        <svg class="aicon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 10h36M6 38h36M22 10v28M26 10v28"/><path d="M6 24h14M28 24h14" stroke-dasharray="2 3"/></svg>
+        <span class="atag">Steel &amp; Composite</span>
+        <h3><span class="ko">강·합성구조</span><span class="en">Steel &amp; Composite Structures</span></h3>
+        <p><span class="ko">고강도강 하이브리드 합성보, 슬림플로어·딥데크 합성슬래브, 탑다운 합성 기둥-보 시스템까지 — 새로운 강·합성 부재와 접합부를 실험으로 검증하고 설계식을 만듭니다.</span><span class="en">From high-strength-steel hybrid composite beams to slim-floor and deep-deck slabs and top-down composite column–beam systems, we test new steel and composite members and connections and turn the results into design equations.</span></p>
+        <span class="alink"><span class="ko">자세히</span><span class="en">Learn more</span> <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="acard" href="about.html#modular">
+        <svg class="aicon" viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="8" width="14" height="14"/><rect x="26" y="8" width="14" height="14"/><rect x="8" y="26" width="14" height="14"/><rect x="26" y="26" width="14" height="14"/></svg>
+        <span class="atag">Modular</span>
+        <h3><span class="ko">모듈러 구조</span><span class="en">Modular Structures</span></h3>
+        <p><span class="ko">중고층 모듈러 건축을 위한 강판전단벽 코어, H형강 기둥 모듈러 접합부를 개발하고, 필로티로 지지된 모듈러 건물의 진동을 제어합니다.</span><span class="en">Steel plate shear wall cores and H-column modular joints for mid-to-high-rise modular buildings, and vibration control of modular structures supported by ground-floor piloti.</span></p>
+        <span class="alink"><span class="ko">자세히</span><span class="en">Learn more</span> <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="acard" href="about.html#seismic">
+        <svg class="aicon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 12h36"/><path d="M12 12v6M24 12v6M36 12v6"/><path d="M8 18h32v5H8z"/><path d="M4 40c4-4 6 4 10 0s6 4 10 0 6 4 10 0 6 4 10 0"/></svg>
+        <span class="atag">Nonstructural</span>
+        <h3><span class="ko">비구조요소 내진·진동제어</span><span class="en">Nonstructural Seismic &amp; Vibration Control</span></h3>
+        <p><span class="ko">실대형 2층 철골모멘트골조 진동대 실험으로 천장·액세스플로어·랙의 지진 응답을 측정하고, 마찰감쇠·가새 상세와 층응답 증폭계수를 설계에 반영합니다.</span><span class="en">Full-scale shake-table tests on a two-story steel moment frame measure how ceilings, access floors and racks respond; we turn them into friction-damping and bracing details and floor-amplification factors for design.</span></p>
+        <span class="alink"><span class="ko">자세히</span><span class="en">Learn more</span> <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="acard" href="about.html#ai">
+        <svg class="aicon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="10" cy="14" r="3"/><circle cx="10" cy="34" r="3"/><circle cx="24" cy="10" r="3"/><circle cx="24" cy="24" r="3"/><circle cx="24" cy="38" r="3"/><circle cx="38" cy="24" r="3"/><path d="M13 14l8-4M13 14l8 10M13 34l8-10M13 34l8 4M27 10l8 14M27 24h8M27 38l8-14"/></svg>
+        <span class="atag">AI</span>
+        <h3><span class="ko">AI 기반 구조 모델링</span><span class="en">AI for Structural Modeling</span></h3>
+        <p><span class="ko">실험과 해석 데이터로 신경망 대리모델을 학습해, 강부재의 반복하중 이력거동을 빠르고 안정적으로 예측합니다.</span><span class="en">Neural-network surrogates trained on test and simulation data predict the cyclic hysteretic behavior of steel components quickly and stably.</span></p>
+        <span class="alink"><span class="ko">자세히</span><span class="en">Learn more</span> <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-tint">
+  <div class="wrap">
+    <div class="sec-h"><h2>Recent Publications</h2><a class="more" href="publications.html"><span class="ko">전체 목록</span><span class="en">Full list</span> →</a></div>
+    <ol class="plist"><li><span class="yr">2026.09.01</span><div><p class="pt">Experimental Study of Connection and Member Behaviors in a Novel Composite Beam and Column System Developed for Top-Down Construction</p><p class="pa">Chang-Jun Bae, Cheol-Ho Lee, <b>Su-Chan Jun</b>*, Jin-Won Kim, Ki-Taek Chung</p><p class="pv"><i>Journal of Building Engineering</i>, 131</p><div class="tags"><span class="tag tag-idx">SCIE</span><span class="tag tag-q">Q1</span><span class="tag">IF 8.1</span></div></div></li><li><span class="yr">2025.12.01</span><div><p class="pt">Neural Network-based Hysteresis Modeling for Structural Steel Components</p><p class="pa"><b>Su-Chan Jun</b>, Cheol-Ho Lee, Sung-Yong Kim*</p><p class="pv"><i>Engineering Structures</i>, 344, 121157</p><div class="tags"><span class="tag tag-idx">SCIE</span><span class="tag tag-q">Q1</span><span class="tag">IF 5.6</span></div></div></li><li><span class="yr">2025.06.01</span><div><p class="pt">Evaluation of Seismic Acceleration Amplification Factors for Building Nonstructural Components Based on Coupled Analysis of Structure–Nonstructural 2-DOF System</p><p class="pa">Chang-Jun Bae, <b>Su-Chan Jun</b>, Cheol-Ho Lee*</p><p class="pv"><i>Earthquake Engineering &amp; Structural Dynamics</i>, 54(7), 1934–1951</p><div class="tags"><span class="tag tag-idx">SCIE</span><span class="tag tag-q">Q1</span><span class="tag">IF 4.3</span></div></div></li></ol>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap narrow">
+    <div class="sec-h"><h2>News</h2><a class="more" href="news.html"><span class="ko">전체</span><span class="en">All</span> →</a></div>
+    <ul class="news"><li><time>2026.12</time><p><span class="ko">제27회 SEEBUS (대만 타이난, 12.18–19) 탑다운 보-기둥 접합부 발표 예정</span><span class="en">Upcoming: top-down beam-to-column study at the 27th SEEBUS, Tainan (Dec. 18–19)</span></p></li><li><time>2026.09.08</time><p><span class="ko">탑다운 합성 기둥-보 시스템 논문 <i>Journal of Building Engineering</i> 게재 (IF 8.1, JCR 상위 7%)</span><span class="en">Top-down composite beam–column paper published in <i>Journal of Building Engineering</i> (IF 8.1)</span></p></li></ul>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="index.html"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 4h22v4.5h-8.5v15H27V28H5v-4.5h8.5v-15H5z"/></svg><span class="brand-t"><b>SSEE Lab</b><small>Steel Structures &amp; Earthquake Engineering Lab</small></span></a>
+      <p class="foot-addr"><span class="ko">41566 대구광역시 북구 대학로 80<br>경북대학교 공과대학 건축공학과</span><span class="en">Dept. of Architectural Engineering, Kyungpook National University<br>80 Daehak-ro, Buk-gu, Daegu 41566, Korea</span></p>
+    </div>
+    <div class="foot-col"><span class="lbl">Contact</span><span class="sel">suchanjun@knu.ac.kr</span><span>053-950-8541</span><a href="contact.html"><span class="ko">찾아오는 길</span><span class="en">Directions</span> →</a></div>
+    <div class="foot-col foot-links"><span class="lbl">Pages</span><a href="about.html">About</a><a href="professor.html">Professor</a><a href="students.html">Students</a><a href="publications.html">Publications</a><a href="projects.html">Projects</a><a href="news.html">News</a><a href="contact.html">Contact</a></div>
+  </div>
+  <div class="wrap foot-base"><span>© <span id="yr">2026</span> SSEE Lab · Kyungpook National University</span></div>
+</footer>
+<script src="main.js?v=8"></script>
+</body>
+</html>
