@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+KR:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="style.css?v=9">
+<link rel="stylesheet" href="style.css?v=11">
 <script>try{var q=new URLSearchParams(location.search).get('lang'),l=q||localStorage.getItem('lang');if(l==='en'||l==='ko'){document.documentElement.dataset.lang=l;document.documentElement.lang=l}var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
 </head>
 <body>
@@ -31,23 +31,18 @@
   </div>
 </header>
 <main>
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">Kyungpook National University</p>
-      <h1 class="lab-name">Steel Structures &amp;<br>Earthquake Engineering Lab</h1>
-      <p class="lab-name-ko">강구조내진공학 연구실 <span>SSEE Lab</span></p>
-      <p class="hero-sub"><span class="ko">경북대학교 건축공학과 강구조내진공학 연구실은 실물대 실험, 비선형 해석, 인공지능을 결합해 강구조 시스템과 비구조요소의 내진 성능을 연구합니다.</span><span class="en">At Kyungpook National University we combine full-scale testing, nonlinear analysis and machine learning to improve the seismic performance of steel systems and nonstructural components.</span></p>
-      <div class="cta">
-        <a class="btn" href="about.html"><span class="ko">연구실 소개</span><span class="en">About the lab</span></a>
-        <a class="btn btn-ghost" href="publications.html"><span class="ko">연구성과</span><span class="en">Publications</span></a>
-      </div>
+<section class="hero-photo" style="--hero-img:url('hero.jpg')">
+  <div class="wrap hero-photo-in">
+    <p class="eyebrow">Kyungpook National University</p>
+    <h1 class="lab-name">Steel Structures &amp;<br>Earthquake Engineering Lab</h1>
+    <p class="lab-name-ko">강구조내진공학 연구실 <span>SSEE Lab</span></p>
+    <p class="hero-sub"><span class="ko">경북대학교 강구조내진공학 연구실(SSEE Lab)은 새로운 강구조 부재·접합부·시스템을 개발하고, 건축물의 내진 성능 향상에 주력합니다. 실험으로 실제 거동을 규명하고, 해석으로 검증 범위를 확장하며, 축적된 데이터를 바탕으로 설계에 활용 가능한 예측 모델을 구축합니다. 이를 통해 지진에 안전하고 지속 가능한 건축 환경을 만드는 연구를 수행하고 있습니다.</span><span class="en">The Steel Structures &amp; Earthquake Engineering Lab (SSEE Lab) at Kyungpook National University develops innovative steel members, connections, and structural systems, with a focus on enhancing the seismic performance of buildings. We investigate structural behavior through experimental testing, extend validation through numerical analysis, and build predictive models from accumulated data for practical design use. Through this work, we pursue research toward safe and sustainable built environments against earthquakes.</span></p>
+    <div class="cta">
+      <a class="btn btn-light" href="about.html"><span class="ko">연구실 소개</span><span class="en">About the lab</span></a>
+      <a class="btn btn-outline-light" href="publications.html"><span class="ko">연구성과</span><span class="en">Publications</span></a>
     </div>
-    <figure class="plot">
-      <div class="plot-box"><canvas id="hyst" aria-label="Animated hysteresis loops of a steel connection under cyclic loading"></canvas></div>
-      <figcaption><span class="ko">강접합부 반복가력 이력곡선 (AISC 341 프로토콜, 예시)</span><span class="en">Cyclic response of a steel connection, AISC 341 protocol (illustrative)</span></figcaption>
-    </figure>
   </div>
+  
 </section>
 
 <section class="sec">
@@ -68,6 +63,6 @@
   </div>
   <div class="wrap foot-base"><span>© <span id="yr">2026</span> SSEE Lab · Kyungpook National University</span></div>
 </footer>
-<script src="main.js?v=9"></script>
+<script src="main.js?v=11"></script>
 </body>
 </html>
