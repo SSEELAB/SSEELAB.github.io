@@ -2,7 +2,7 @@
 """SSEE Lab 홈페이지 생성기 — DATA 영역을 수정한 뒤 `python build.py` 실행하면 모든 html이 갱신됩니다."""
 import os
 OUT = os.path.dirname(os.path.abspath(__file__))
-VER = '24'                       # css/js 캐시 갱신용 번호 (디자인 수정 시 올리기)
+VER = '25'                       # css/js 캐시 갱신용 번호 (디자인 수정 시 올리기)
 
 SITE_URL = ''                    # 홈페이지 주소 (예: 'https://ssee-knu.github.io') — 넣으면 sitemap.xml·robots.txt 자동 생성
 GOOGLE_VERIFY = ''               # Google Search Console 'HTML 태그' 인증값 (content="..." 안의 값만)
@@ -137,26 +137,19 @@ BOOKS = [
 # 연구과제 (기간, 과제명(영문), 발주·지원(영문), 'PI'면 연구책임자 / 나머지는 Co-Investigator[, 과제명(국문), 발주·지원(국문)])
 #  — 국문을 넣으면 한국어 화면에서는 국문, 영어 화면에서는 영문이 보입니다. 없으면 영문만 표시.
 PROJECTS = [
+ ('2026.02 –', 'Development of a connection design manual for residential structural frame systems', 'POSCO', '',
+  '주거용 라멘 구조시스템 접합부 설계매뉴얼 개발', '포스코'),
+ ('2026.01 – 2026.07', 'Development of lightweight, high-productivity pipe rack modules', 'Gaurian', '',
+  '파이프랙 모듈 경량화 및 생산성 향상을 위한 기술개발', '가우리안'),
+ ('2024.12 – 2026.08', 'Structural performance evaluation of one-way one-touch bolts for modular connections', 'Hyundai Steel', '',
+  '모듈러 접합을 위한 원웨이-원터치 볼트 구조성능 평가', '현대제철'),
  ('2025.03 – 2026.03', 'Expanding steel utilization in the Indonesian construction industry: challenges and practical solutions', 'Indonesian Society of Steel Structures', ''),
  ('2024.08 – 2026.08', 'Development of H-column modular joints', 'Hyundai Engineering', ''),
  ('2024.09 – 2025.09', 'Modularized steel plate shear wall core system for mid-to-high-rise residential modular structures', 'Hyundai Steel', ''),
  ('2024.04 – 2025.04', 'Structural design &amp; performance evaluation guidelines for steel deck systems', 'Korean Society of Steel Construction', ''),
  ('2024.02 – 2025.01', 'Structural performance evaluation of high-load unidirectional composite beam joints', 'POSCO', ''),
- ('2023.12 – 2024.06', 'Development of top-down columns using H-beams', 'Hyundai Steel', ''),
- ('2023.12 – 2024.03', 'Safety inspection manual for structural stability of industrial pipe rack structures', 'KNU Industry-Academic Cooperation Foundation', ''),
- ('2023.09 – 2023.10', 'Safety inspection manual for structural stability of industrial pipe rack structures', 'Chosun Univ. Industry-Academic Cooperation Foundation', ''),
- ('2023.08 – 2024.01', 'Structural performance evaluation of deep-deck floor system under construction load', 'Shinhan S&amp;G', ''),
  ('2023.06 – 2026.05', 'Nonlinear dynamic characteristics and vibration control methods for nonstructural elements', 'National Research Foundation of Korea', 'PI',
-  '비구조요소의 비선형 거동특성을 고려한 설계계수 제안 및 제진시스템 개발', '한국연구재단 (창의·도전연구기반지원사업)'),
- ('2023.05 – 2024.04', 'Steel plate shear wall system for mid-to-high-rise modular residential buildings', 'Hyundai Steel', ''),
- ('2022.10 – 2023.03', 'Evaluation of flexural behavior of slim-floor composite beams', 'Shinhan S&amp;G', ''),
- ('2021.03 – 2024.02', 'Seismic design of floor-mounted nonstructural elements based on experimental and analytical study', 'National Research Foundation of Korea', ''),
- ('2020.05 – 2020.12', 'Collaborative round-robin analysis on vibration characteristics of shear wall structures', 'Korea Atomic Energy Research Institute', ''),
- ('2018.04 – 2021.12', 'Seismic performance enhancement methods for nonstructural elements in buildings', 'Ministry of Land, Infrastructure and Transport', ''),
- ('2018.04 – 2018.09', 'Seismic design methods for 5G telecommunication racks', 'SK Telecom', ''),
- ('2017.03 – 2018.02', 'Development of a long-span shear link truss frame', 'POSCO', ''),
- ('2017.02 – 2017.12', 'Seismic design details for steel plant factories', 'POSCO E&amp;C', ''),
- ('2015.06 – 2016.02', 'Development of hybrid composite beams using high-strength steels', 'POSCO', ''),
+  '비구조요소의 비선형 거동특성을 고려한 설계계수 제안 및 제진시스템 개발', '한국연구재단 (창의·도전연구기반지원사업)'),# 소식 (최신순, 홈에는 앞의 4개)
 ]
 # 소식 (최신순, 홈에는 앞의 4개)
 NEWS = [
