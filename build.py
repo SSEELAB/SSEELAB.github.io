@@ -2,7 +2,7 @@
 """SSEE Lab 홈페이지 생성기 — DATA 영역을 수정한 뒤 `python build.py` 실행하면 모든 html이 갱신됩니다."""
 import os
 OUT = os.path.dirname(os.path.abspath(__file__))
-VER = '25'                       # css/js 캐시 갱신용 번호 (디자인 수정 시 올리기)
+VER = '27'                       # css/js 캐시 갱신용 번호 (디자인 수정 시 올리기)
 
 SITE_URL = ''                    # 홈페이지 주소 (예: 'https://ssee-knu.github.io') — 넣으면 sitemap.xml·robots.txt 자동 생성
 GOOGLE_VERIFY = ''               # Google Search Console 'HTML 태그' 인증값 (content="..." 안의 값만)
