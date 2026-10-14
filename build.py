@@ -2,7 +2,7 @@
 """SSEE Lab 홈페이지 생성기 — DATA 영역을 수정한 뒤 `python build.py` 실행하면 모든 html이 갱신됩니다."""
 import os
 OUT = os.path.dirname(os.path.abspath(__file__))
-VER = '27'                       # css/js 캐시 갱신용 번호 (디자인 수정 시 올리기)
+VER = '28'                       # css/js 캐시 갱신용 번호 (디자인 수정 시 올리기)
 
 SITE_URL = ''                    # 홈페이지 주소 (예: 'https://ssee-knu.github.io') — 넣으면 sitemap.xml·robots.txt 자동 생성
 GOOGLE_VERIFY = ''               # Google Search Console 'HTML 태그' 인증값 (content="..." 안의 값만)
@@ -278,7 +278,7 @@ def page(slug, title, body):
 {VERIFY}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+KR:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Viga&family=Noto+Serif+KR:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="style.css?v={VER}">
 <script>try{{var q=new URLSearchParams(location.search).get('lang'),l=q||localStorage.getItem('lang');if(l==='en'||l==='ko'){{document.documentElement.dataset.lang=l;document.documentElement.lang=l}}var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.dataset.theme='dark'}}catch(e){{}}</script>
 </head>

@@ -424,3 +424,6 @@ html[data-lang="en"] .hero h1.lab-name{line-height:1.14;letter-spacing:-.02em}
 /* v27 — silver gray accent (replaces bronze/gold) */
 :root{--accent:#4A5361;--accent-hover:#323946;--on-accent:#FFFFFF;--accent-soft:#ECEEF1}
 :root[data-theme="dark"]{--accent:#C3CAD4;--accent-hover:#DDE2E8;--on-accent:#14171C;--accent-soft:#262A31}
+
+/* v28 — hero title font: Viga (tight) */
+.hero-photo .lab-name{font-family:"Viga","Pretendard Variable",Pretendard,sans-serif;font-weight:400;letter-spacing:-.02em;line-height:1.08}
